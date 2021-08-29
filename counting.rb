@@ -37,7 +37,7 @@ def update_next_come_value(result)
 end
 # スプレッドシートに最大人数を送信
 def send_data(ws, result, time)
-    # row = time.day 111       # 行と日付を合わせる（1日は1行目、2日は2行目...）
+    # row = time.day           # 行と日付を合わせる（1日は1行目、2日は2行目...）
     # column = time.hour - 12  # A列から詰める（13時台はA列、14時台はB列...）
     # ws[row, column] = "#{result[:come_max]}"
     # ws.save
