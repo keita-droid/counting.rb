@@ -1,6 +1,5 @@
-require "google_drive"
-
-# スプレッドシートに送信する場合は以下3行とsend_dataメソッド内のコメントアウトを外す
+# スプレッドシートに送信する場合は以下4行とsend_dataメソッド内のコメントアウトを外す
+# require "google_drive"
 # session = GoogleDrive::Session.from_config("config.json")
 # sp = session.spreadsheet_by_url("スプレッドシートのURL")  # スプレッドシートのURL
 # ws = sp.worksheet_by_title("シート1") # シート名
