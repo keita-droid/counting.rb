@@ -18,6 +18,6 @@
 
 ## スプレッドシートとの連携方法
 1. google_driveのgemをインストール
-2. confing.jsonにGoogleDrive側で作成した認証キーの情報を追記
+2. config.jsonにGoogleDrive側で作成した認証キーの情報を追記
 3. counting.rbの最上部4行とsend_dataメソッド内のコメントアウトを解除
 4. ターミナルでcounting.rbを実行する（初回のみ認証が必要）
